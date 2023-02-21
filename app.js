@@ -1,19 +1,26 @@
 
 //<********************************Sorting *********************> 
-
+// var arr = [10,9,8,7,6,5,4,3,2,1]
+// for(var i=0;i<arr.lenght;i++){
+//     for(var j=i+1;j<arr.length;j++){
+//         if(arr[j]<arr[i]){
+//             arr[i]=[arr[j],arr[j]=arr[i]][0]
+//         }
+//     }
+// }
+// console.log(arr)
 
 
 //<*************************Smaller Number*************************>
 
 // var number = [24, 53, 78, 91, 12];
 // var smallest = number[0];
-
 // for (var i = 0; i < number.length; i++) {
 //   if (number[i] < smallest) {
 //     smallest = number[i];
-//   }
+//   } 
 // }
-// alert("Alert Items: "+number)
+// alert("Array Items: "+number)
 // alert("The smallest number in the array is: " + smallest);
 
 
@@ -27,7 +34,7 @@
 //     largest = number[i];
 //   }
 // }
-// alert("Alert Items: "+number)
+// alert("Array Items: "+number)
 // alert("The largest number in the array is: " + largest);
 
 //<**********************Missing Number*************************>
