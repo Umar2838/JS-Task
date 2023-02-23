@@ -53,3 +53,51 @@
 
 // console.log("Missing number is:", missingNumber);
 
+
+// var arr = [21,22,23,25,26,27,28,29,30]
+// var index = 0
+// for (var i=arr[0];i<arr[arr.lenght-1];i++){  
+//     // if(i !== arr[index]){
+//     //     console.log(i)
+//     // }
+
+// console.log(index)
+ 
+// }
+
+
+//<***********************Finding letter or Number***************************************>
+
+// var str = "hgud0898yhr8yf98";
+
+
+// for (var i = 0; i < str.length; i++) {
+//   var charCode = str.charCodeAt(i);
+
+ 
+//   if (charCode >= 97 && charCode <= 112) {
+//     console.log("The variable contains the letter"+ str[i]);
+//   }
+ 
+//   else {
+//     console.log("The variable contains the number"+ str[i]);
+//   }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
