@@ -122,6 +122,18 @@
 
 
 
+//<********************************* Changing Word with replace and replaceall method *********************>
+
+// var str = "my name is umer aqeel umer"
+
+// console.log(str.replace("umer","aqeel"))
+
+
+// var str = "my name is umer aqeel umer"
+
+// console.log(str.replaceAll("umer","aqeel"))
+
+
 
 
 
