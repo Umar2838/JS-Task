@@ -107,18 +107,19 @@
 // }
 // console.log(arr.join(" "))
 
+//<**************************** Changing word with another word********************>
 
+// var str = "my name is umer khan umer"
 
-//<********************************* Changing Word with replace and replaceall method *********************>
+// for(var i=0;i<str.length;i++){
+//     if(str.slice(i,i+4) === "umer"){
+//   str= str.slice(0,i) + "aqeel" + str.slice(i+4)
+    
+// }
 
-// var str = "my name is umer aqeel umer"
+// }
+// console.log(str)
 
-// console.log(str.replace("umer","aqeel"))
-
-
-// var str = "my name is umer aqeel umer"
-
-// console.log(str.replaceAll("umer","aqeel"))
 
 
 
