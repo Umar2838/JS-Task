@@ -85,25 +85,40 @@
 // }
 
 
+//<*************************** Capitilize first word*************************>
+
+// var str = "umer"
+
+// var capital = str[0].toUpperCase()
+
+// var result= capital+str.slice(1)
+// console.log(result)
+
+
+//<************************** Capitilize first letter for many words ****************>
+
+// var word = prompt("Enter any word")
+
+// var wordsplit = word.split(" ");
+// var arr = []
+// for(var i=0 ; i < wordsplit.length; i++){
+//     var result = wordsplit[i][0].toUpperCase() + wordsplit[i].slice(1)
+//     arr.push(result)
+// }
+// console.log(arr.join(" "))
 
 
 
+//<********************************* Changing Word with replace and replaceall method *********************>
+
+// var str = "my name is umer aqeel umer"
+
+// console.log(str.replace("umer","aqeel"))
 
 
+// var str = "my name is umer aqeel umer"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+// console.log(str.replaceAll("umer","aqeel"))
 
 
 
