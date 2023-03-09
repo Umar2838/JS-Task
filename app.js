@@ -1,151 +1,127 @@
+//<**********************************Chapter no 21*******************************>
 
-//<********************************Sorting *********************> 
-// var arr = [10,9,8,7,6,5,4,3,2,1]
-// for(var i=0;i<arr.lenght;i++){
-//     for(var j=i+1;j<arr.length;j++){
-//         if(arr[j]<arr[i]){
-//             arr[i]=[arr[j],arr[j]=arr[i]][0]
-//         }
-//     }
+//Question no 01
+
+// var firstName = prompt("Enter First Name")
+// var lastName = prompt("Enter Last Name")
+// var fullName = firstName + lastName
+// alert("Hi, "+ fullName +". How are you" )
+
+//Question no 02
+
+// var mobileName = prompt("Enter your favourite Mobile Name")
+// document.write("My favourite Phone Name is: " + mobileName + "</br>" )
+// document.write("Lenght of the string is: "+mobileName.length)
+
+//Question no 03
+
+// var string = "Pakistani"
+// document.write("String: "+string)
+// document.write("</br>Index of 'n' is: " + string.indexOf("n"))
+
+//Question no 04
+
+// var string = "Hello world"
+// document.write("String: "+string)
+// document.write("</br>Index of 'n' is: " + string.lastIndexOf("l"))
+
+//Question no 05
+
+// var str = "Pakistani"
+// document.write("String: "+str)
+// document.write("</br>Character at Index 3 is: " + str.charAt(3))
+
+// Question no 06
+
+// var firstName = prompt("Enter First Name")
+// var lastName = prompt("Enter Last Name")
+// alert("Hi, "+ firstName.concat(lastName) +". How are you" )
+
+//Question no 07
+
+// var word = "Hyderabad"
+// document.write("City: "+word)
+// document.write("</br>After Replacement: " + word.replace("Hyder","Islam"))
+
+
+//Question no 08
+
+// var message = "Ali and Sam are best friend.They play cricket and football together."
+// document.write("Message: " + message)
+// document.write("</br>After Replacement: " + message.replaceAll("and","&"))
+
+
+//Question no 09
+
+// var string = "372"
+// var number = Number(string)
+// document.write("Value: " + string)
+// document.write("</br>Type: " + typeof(string))
+// document.write("</br>Value: " + string)
+// document.write("</br>Type: " + typeof(number))
+
+
+//Question no 10
+
+// var input = prompt("Enter any word")
+// var result = input.toUpperCase()
+// alert(result)
+
+
+//Question no 11
+
+// var input = "javascript"
+// var spl = input.toLowerCase().split(" ");
+
+// for( var i=0;i<spl.length;i++){
+//   spl[i]=spl[i][0].toUpperCase() + spl[i].slice(1)
 // }
-// console.log(arr)
+// var join = spl.join(" ")
+// console.log(join)
 
 
-//<*************************Smaller Number*************************>
+// Question no 12
 
-// var number = [24, 53, 78, 91, 12];
-// var smallest = number[0];
-// for (var i = 0; i < number.length; i++) {
-//   if (number[i] < smallest) {
-//     smallest = number[i];
-//   } 
-// }
-// alert("Array Items: "+number)
-// alert("The smallest number in the array is: " + smallest);
+// var num = 36.36
+// var replace = num.toString().replace(".","")
+// console.log(replace)
 
 
-//<********************Greater Number*************************>
+//Question no 14
 
-// var number = [24, 53, 78, 91, 12];
-// var largest = number[0];
+// var arr = ["cakes", "apple pie", "cookies", "chips", "patties"];
 
-// for (var i = 0; i < number.length; i++) {
-//   if (number[i] > largest) {
-//     largest = number[i];
-//   }
-// }
-// alert("Array Items: "+number)
-// alert("The largest number in the array is: " + largest);
+// var userInput = prompt("Enter the name of the Item");
 
-//<**********************Missing Number*************************>
-
-// var numbers = [25,26,27,28,29,31,32,33,34,35];
-// var missingNumber = numbers[0] - 1;
-// for (let i = 0; i < numbers.length; i++) 
-//   if (numbers[i] - missingNumber > 1) {
-//     missingNumber += 1;
+// var match = false;
+// for (var i = 0; i < arr.length; i++) {
+//   if (arr[i].toLowerCase() === userInput.toLowerCase()) {
+//  match = true;
 //     break;
 //   }
-//    else {
-//     missingNumber = numbers[i];
-//   }
-
-
-// console.log("Missing number is:", missingNumber);
-
-
-// var arr = [21,22,23,25,26,27,28,29,30]
-// var index = 0
-// for (var i=arr[0];i<arr[arr.lenght-1];i++){  
-//     // if(i !== arr[index]){
-//     //     console.log(i)
-//     // }
-
-// console.log(index)
- 
+// }
+// if (match) {
+//   console.log(userInput + " is available in the Bakery at index " + i);
+// } else {
+//   console.log(userInput + " is not available in the Bakery at any index ");
 // }
 
+//Question no 15
 
-//<***********************Finding letter or Number***************************************>
+// var pass = prompt("Enter a valid Password")
 
-// var str = "hgud0898yhr8yf98";
-
-
-// for (var i = 0; i < str.length; i++) {
-//   var charCode = str.charCodeAt(i);
-
- 
-//   if (charCode >= 97 && charCode <= 112) {
-//     console.log("The variable contains the letter"+ str[i]);
-//   }
- 
-//   else {
-//     console.log("The variable contains the number"+ str[i]);
-//   }
-// }
+// if(pass === )
 
 
-//<*************************** Capitilize first word*************************>
+var password = prompt("Please enter a password that contains alphabets and numbers, is at least 6 characters long, and does not start with a number:");
 
-// var str = "umer"
-
-// var capital = str[0].toUpperCase()
-
-// var result= capital+str.slice(1)
-// console.log(result)
-
-
-//<************************** Capitilize first letter for many words ****************>
-
-// var word = prompt("Enter any word")
-
-// var wordsplit = word.split(" ");
-// var arr = []
-// for(var i=0 ; i < wordsplit.length; i++){
-//     var result = wordsplit[i][0].toUpperCase() + wordsplit[i].slice(1)
-//     arr.push(result)
-// }
-// console.log(arr.join(" "))
-
-//<**************************** Changing word with another word********************>
-
-// var str = "my name is umer khan umer"
-
-// for(var i=0;i<str.length;i++){
-//     if(str.slice(i,i+4) === "umer"){
-//   str= str.slice(0,i) + "aqeel" + str.slice(i+4)
-    
-// }
-
-// }
-// console.log(str)
-
-
-
-//<********************************* Changing Word with replace and replaceall method *********************>
-
-// var str = "my name is umer aqeel umer"
-
-// console.log(str.replace("umer","aqeel"))
-
-
-// var str = "my name is umer aqeel umer"
-
-// console.log(str.replaceAll("umer","aqeel"))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+if (password.length < 6) {
+  alert("Password should be at least 6 characters long. Please enter a valid password.");
+} else if (!isNaN(password.charAt(0))) {
+  alert("Password should not start with a number. Please enter a valid password.");
+} else if () {
+  alert("Password should contain both alphabets and numbers. Please enter a valid password.");
+} else {
+  alert("Password is valid.");
+}
 
