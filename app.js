@@ -137,19 +137,18 @@
 
 //<**********************************Generate a program in wvahich head and tail show randomly*******************************>
 
-// var player1 = prompt("Enter the name of first player")
-// var player2 = prompt("Enter the name of second player")
-//   var userChoice = prompt(player1+ " Heads or tails?");
-//   var coinToss = Math.floor(Math.random() * 2);
-//   var coinResult = coinToss
+// var player1 = prompt("Enter Player 1 Name:");
+// var player2 = prompt("Enter Player 2 Name:");
+// var coinSides = ["Heads", "Tails"];
+// var coinSide = coinSides[Math.ceil(Math.random() * 1)];
+// const player1Choice = prompt( player1 + ", choose Heads or Tails:");
 
-//  if (coinResult === 0) {
-   
-//     alert(player1 +" win! The coin landed on Heads" );
-//   } else {
+// if (player1Choice.toLowerCase() === coinSide.toLowerCase()) {
+//   alert( player1 + " wins! The coin landed on " + coinSide);
+// } else {
+//   alert( player2 + " wins! The coin landed on " + coinSide);
+// }
 
-//     alert(player1 +" loss! The coin landed on tails");
-//   }
 
 
 
@@ -160,6 +159,14 @@
 
 
 //<*************************************Generate 10 digit Random Password***************************************>
+
+
+  // var charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+~`|}{[]\:;?><,./-=";
+  // var password = "";
+  // for (let i = 0; i < 10; i++) {
+  //     password = password + charset[(Math.floor(Math.random() * charset.length))]; 
+  // }
+  // console.log(password);
 
 
 
