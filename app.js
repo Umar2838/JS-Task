@@ -160,13 +160,13 @@
 
 //<*************************************Generate 10 digit Random Password***************************************>
 
-
-  // var charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+~`|}{[]\:;?><,./-=";
+  // var user = prompt("Enter your email")
+  // var char = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+~`|}{[]\:;?><,./-=";
   // var password = "";
-  // for (let i = 0; i < 10; i++) {
-  //     password = password + charset[(Math.floor(Math.random() * charset.length))]; 
+  // for (let i = 0; i <=10; i++) {
+  //     password = password + char[(Math.floor(Math.random() * char.length))]; 
   // }
-  // console.log(password);
+  // alert("UserName: "+ user + "\n" +"Your unique Password is : " + password );
 
 
 
