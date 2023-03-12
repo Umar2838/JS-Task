@@ -160,14 +160,35 @@
 
 //<*************************************Generate 10 digit Random Password***************************************>
 
-  // var user = prompt("Enter your email")
+  // // var user = prompt("Enter your email")
   // var char = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+~`|}{[]\:;?><,./-=";
   // var password = "";
   // for (let i = 0; i <=10; i++) {
-  //     password = password + char[(Math.floor(Math.random() * char.length))]; 
+  //     password += char[(Math.floor(Math.random() * char.length))]; 
   // }
-  // alert("UserName: "+ user + "\n" +"Your unique Password is : " + password );
+  // alert("Your unique Password is : " + password );
 
+
+//<********************************************Generate 10 digit password only one loop ********************************>
+
+
+//   var char = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+~`|}{[]\:;?><,./-=';"
+//   var password = "";
+
+//   for (var i = 0; i < 10; i++) {
+//     var char1 = char[Math.floor(Math.random() * char.length)];
+//     if (i < 3) {
+//       char1 = char[Math.floor(Math.random() * 26)];
+//     } else if (i < 6) {
+//       char1 = char[Math.floor(Math.random() * 26) + 26];
+//     } else if (i < 9) {
+//       char1 = char[Math.floor(Math.random() * 10) + 52];
+//     } else {
+//       char1 = char[Math.floor(Math.random() * 14) + 62];
+//     }
+//     password += char1;
+//   }
+// console.log(password);
 
 
 
