@@ -175,7 +175,7 @@
 //   var char = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+~`|}{[]\:;?><,./-=';"
 //   var password = "";
 
-//   for (var i = 0; i < 10; i++) {
+//   for (var i = 0; i <br 10; i++) {
 //     var char1 = char[Math.floor(Math.random() * char.length)];
 //     if (i < 3) {
 //       char1 = char[Math.floor(Math.random() * 26)];
@@ -190,12 +190,39 @@
 //   }
 // console.log(password);
 
+// seperate date time etc 
+
+// var today = new Date();
+// var str = today.toString()
+// console.log(str)
+// var day = "Date: " + str.slice(0,3) + "\n" + "Month: " + str.slice(4,8) + "\n" + "Date: " + str.slice(8,10) + "\n" + "Year: " + str.slice(11,15) + "\n" + "Time: " + str.slice(16,24) + "\n" + "Time Zone: " + str.slice(24,33) + "\n" + "Standard Name: " + str.slice(33)
+// console.log(day)
 
 
+// Calculate Age
+// var birthyear = prompt("Enter your Birth age")
+// var today = new Date();
+// var currentyear = today.getFullYear()
+// var calculate = currentyear - birthyear
+// alert("Your age is: " + calculate) 
+
+// Calculate Whole Age 
+var now = new Date();
+var birthdate = new Date("2004-09-11"); 
+
+var diffTime = birthdate - now; 
+var diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); 
+var years = Math.floor(diffDays / 365); 
+var days = diffDays % 365;
+
+var hours = now.getHours(); 
+var minutes = now.getMinutes(); 
+var seconds = now.getSeconds();
+
+console.log("You are" + years + "years and" + days + "days old, born on a" + 
 
 
-
-
+console.log()
 
 
 
