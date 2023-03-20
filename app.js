@@ -175,7 +175,7 @@
 //   var char = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+~`|}{[]\:;?><,./-=';"
 //   var password = "";
 
-//   for (var i = 0; i <br 10; i++) {
+//   for (var i = 0; i <10; i++) {
 //     var char1 = char[Math.floor(Math.random() * char.length)];
 //     if (i < 3) {
 //       char1 = char[Math.floor(Math.random() * 26)];
@@ -207,23 +207,19 @@
 // alert("Your age is: " + calculate) 
 
 // Calculate Whole Age 
-var now = new Date();
-var birthdate = new Date("2004-09-11"); 
 
-var diffTime = birthdate - now; 
-var diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); 
-var years = Math.floor(diffDays / 365); 
-var days = diffDays % 365;
+// var birthday = prompt("Enter your birth","11 sep 2004")
+// var today = new Date();
+// var birthDayDate = new Date(birthday);
+// var diff = today.getTime() - birthDayDate.getTime();
+//  diff/ (1000 * 60 * 60 * 24 * 30 * 12)
 
-var hours = now.getHours(); 
-var minutes = now.getMinutes(); 
-var seconds = now.getSeconds();
+// var years = diff/ (1000 * 60 * 60 * 24 * 30 * 12)
+// var month = diff/ (1000 * 60 * 60 * 24 * 30 )
+// var hours = diff/ (1000 * 60 * 60  )
+// var time = diff/ (1000 * 60 )
 
-console.log("You are" + years + "years and" + days + "days old, born on a" + 
-
-
-console.log()
-
+// console.log("You are " + Math.floor(years) + " years old " + Math.floor(month) + " months old " + hours + " hours old " + time + " seconds old"  )
 
 
 
