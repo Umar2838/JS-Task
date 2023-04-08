@@ -224,6 +224,60 @@
 
 
 
+var sentence ="He fasts daily in the month of ramadan";
+var result={};
+
+for (var i = 0; i < sentence.length; i++) {
+  var word = sentence[i];
+  if (result[word]) {
+    result[word]++;
+  } else {
+    result[word] = 1;
+  }
+}
+
+console.log(result);
+
+
+//<*********************Pelindrom Words********************>
+
+// var userInput = prompt('Enter a word:');
+// var reversedInput = userInput.split('').reverse().join('');
+// if (userInput === reversedInput) {
+//   alert(userInput+" is a palindrome!");
+// } else {
+// alert(userInput+" is not a palindrome.");
+// }
+
+//<******************Without Method***************************>
+
+// var str =prompt("Enter a word")
+// var reversestring="";
+
+// for(var i=str.length-1;i>=0;i--){
+//     reversestring=reversestring+str[i]
+// }
+// if(str===reversestring){
+// alert(str+" is a palindrome word")
+// }else{
+//     alert(str+" is not a palindrome")
+// }
+
+//<****************************With For Loop*************************************>
+
+// var user = prompt("Enter a word")
+// for( var i=0;i<user.length/2;i++){
+// if( user[i] != user[user.length - 1 - i] ){
+//    alert(user +" is not palindrome")
+//    break;
+// }else{
+//     alert(user +" is a pelindrome")
+// break;
+// }
+// }
+
+
+
 
 
 
