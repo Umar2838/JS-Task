@@ -224,19 +224,19 @@
 
 
 
-var sentence ="He fasts daily in the month of ramadan";
-var result={};
+// var sentence ="He fasts daily in the month of ramadan";
+// var result={};
 
-for (var i = 0; i < sentence.length; i++) {
-  var word = sentence[i];
-  if (result[word]) {
-    result[word]++;
-  } else {
-    result[word] = 1;
-  }
-}
+// for (var i = 0; i < sentence.length; i++) {
+//   var word = sentence[i];
+//   if (result[word]) {
+//     result[word]++;
+//   } else {
+//     result[word] = 1;
+//   }
+// }
 
-console.log(result);
+// console.log(result);
 
 
 //<*********************Pelindrom Words********************>
@@ -275,6 +275,70 @@ console.log(result);
 // break;
 // }
 // }
+
+
+// Using function factorial
+
+// num=prompt("Enter a number" );
+// function factorial(num){
+//   var factorial = 1;
+//   for(var i=num;i>=1;i--){
+//     factorial *= i;
+//   }
+//   return factorial;
+// }
+// console.log(num + "! is "  + factorial(num) )
+
+
+// function calculateSum(sum){
+
+// var arr = 0;
+// for(var i=0;i<sum.length;i++){
+//   arr = arr + sum[i]   
+   
+// }
+// return calculateSum([1,2,3,4])
+// }
+
+
+
+var inputnumber = prompt("Enter number")
+
+for(var i=0 ; i<inputnumber.length ; i++){
+
+
+
+var result = inputnumber[i] % 2 == 0 ? inputnumber[i] : inputnumber[i] + "-" 
+
+console.log(result)
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
